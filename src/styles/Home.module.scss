@@ -1,0 +1,88 @@
+$primary-color: #E9E9E9;
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+  width: 33%;
+  margin-top: 100px;
+  min-height: 600px;
+  background-color: white;
+
+  .cardHeader {
+    height: 80px;
+    width: 100%;
+    background-color: #E9E9E9;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      margin-left: 40px;
+    }
+  }
+
+  article {
+    padding: 20px 40px;
+
+    .inputRow {
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      align-items: center;
+
+      .label {
+        display: flex;
+        flex: 1;
+      }
+
+      .inputDiv {
+        flex: 2.5;
+
+        input {
+          width: 100%;
+          background-color: #E9E9E9;
+          border: none;
+          height: 2em;
+        }
+      }
+    }
+
+    .genBtnBg {
+      flex: 1;
+      flex-direction: column;
+      display: flex;
+      align-items: flex-end;
+
+      .genBtn {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        border: solid 2px gray
+      }
+
+      .saveBtn {
+        background-color: #138900;
+        color: white;
+        padding: 10px;
+        border: none;
+      }
+    }
+
+    .textAreaBg {
+      background-color: #E9E9E9;
+      padding: 20px 15px;
+      margin: 20px 0px;
+
+      textarea {
+        width: 100%;
+        background-color: #232D3E;
+        min-height: 300px;
+        overflow: scroll;
+        color: white;
+        font-size: 1rem;
+      }
+    }
+  }
+
+}
